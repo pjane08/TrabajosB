@@ -1,0 +1,80 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.Boston, .Madrid, .Spanish{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid darkcyan;
+    width: 330px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.a1, .a2, .a3{
+    border-bottom: 2px solid darkcyan;
+}
+.bike, .boat, .car{
+    display: inline-block;
+}
+
+.morning, .afternoon, .night{
+    display: inline-block;
+}
+
+.blue{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: darkcyan;
+}
+
+h4{
+    
+    margin-bottom: 40px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+p{
+    padding: 10px;
+}
+.bike, .boat, .car{
+    display: inline-block;
+    margin: 10px 20px;
+    text-align: center;
+    border: 2px solid darkgoldenrod;
+    width: 330px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.b1, .b2, .b3{
+    border-bottom: 2px solid darkgoldenrod;
+}
+.yellow{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: darkgoldenrod;
+}
+.morning, .afternoon, .night{
+    display: inline-block;
+    margin: 10px 20px;
+    text-align: center;
+    border: 2px solid red;
+    width: 330px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.c1, .c2, .c3{
+    border-bottom: 2px solid rgb(189, 50, 68);
+}
+.orange{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: rgb(189, 50, 68);
+}
+
