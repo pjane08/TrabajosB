@@ -1,0 +1,115 @@
+*{
+    
+    margin: 0;
+}
+i{
+    font-size: 40px;
+    margin-right: 15px;
+
+}
+header{
+    align-items: center;
+    background-color: rgb(233, 162, 136);
+    border-top: 5px solid coral;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+li{
+    display: flex;
+    font-weight: bold;
+    margin-right: 20px;
+}
+li:hover{
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    margin-bottom: -2px;
+}
+nav{
+    background-color: coral;
+    box-shadow: 0px 10px 10px -6px rgb(46, 46, 46);
+    padding: 15px;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 300px;
+}
+
+aside{
+    box-sizing: border-box;
+
+}
+
+.box{
+    background-color: #fff;
+    box-shadow: 0px 10px 10px -6px rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    margin: 15px;
+/*     width: 300px; */
+    padding: 10px;
+} 
+
+h4{
+    padding: 10px;
+}
+.bigbox{
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 5px 1px rgb(95, 94, 94);
+}
+.icon{
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(192, 190, 183);
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+h3{
+    padding-bottom: 15px;
+}
+@media screen and (min-width:480px) {
+    aside{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        flex: 0 1 38% ;
+        
+    }
+}
+@media screen and (min-width:780px) {
+    aside{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+    }
+    .box{
+        display: flex;
+        flex: 0 1 20%;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
